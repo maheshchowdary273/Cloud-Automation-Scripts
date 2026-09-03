@@ -1,0 +1,16 @@
+Python Virtual environment
+1) create a python virtual environment.
+python3.9 -m venv venv 
+
+2) Activate the virtual environment
+source venv/bin/activate
+
+3) Install the required libraries/python modules
+pip install requests
+pip install boto3
+
+4) write or develop or run your script
+python <your script name>
+  
+5) Deactivating the virtual environment
+deactivate
